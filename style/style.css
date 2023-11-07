@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    border-radius: 10px;
+
+}
+
+.header{
+    display: none;
+}
